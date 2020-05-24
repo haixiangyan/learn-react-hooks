@@ -8,6 +8,7 @@ type TState = {
 
 type TAction = {
   type: string
+  user?: TState
 }
 
 const initState: TState = {
@@ -23,23 +24,26 @@ const reducer = (state: TState, action: TAction) => {
       return {...state, age: state.age + 1}
     case 'minusAge':
       return {...state, age: state.age - 1}
+    case 'update':
+      return {...state, ...action.user}
     default:
       throw new Error('没有传入 type')
   }
 }
-
 
 const LearnUseReducer: React.FC = () => {
   const [state, dispatch] = useReducer(reducer, initState)
 
   const onAdd = () => dispatch({type: 'addAge'})
   const onMinus = () => dispatch({type: 'minusAge'})
+  const onUpdate = () => dispatch({type: 'update', user: {name: 'Tom', age: 20}})
 
   return (
     <div>
       <h1>useReducer</h1>
       <button onClick={onAdd}>age + 1</button>
       <button onClick={onMinus}>age - 1</button>
+      <button onClick={onUpdate}>更新整个user</button>
       <p>{JSON.stringify(state)}</p>
     </div>
   )
