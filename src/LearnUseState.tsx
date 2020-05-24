@@ -1,7 +1,7 @@
 import * as React from 'react'
 import {useState} from 'react'
 
-const UseState: React.FC = () => {
+const LearnUseState: React.FC = () => {
   const [x, setX] = useState(0)
   const [y, setY] = useState(100)
   const [obj, setObj] = useState({name: 'Jack', age: 18})
@@ -36,4 +36,4 @@ const UseState: React.FC = () => {
   )
 }
 
-export default UseState
+export default LearnUseState

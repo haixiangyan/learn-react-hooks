@@ -1,10 +1,13 @@
 import React from 'react'
-import UseState from './UseState'
+import LearnUseState from './LearnUseState'
+import LearnUseReducer from './LearnUseReducer'
 
 function App() {
   return (
     <div>
-      <UseState/>
+      <LearnUseState/>
+      <hr/>
+      <LearnUseReducer/>
     </div>
   );
 }
