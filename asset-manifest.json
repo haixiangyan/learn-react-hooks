@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/learn-react-hooks/static/js/main.d0138ddf.chunk.js",
+    "main.js.map": "/learn-react-hooks/static/js/main.d0138ddf.chunk.js.map",
+    "runtime-main.js": "/learn-react-hooks/static/js/runtime-main.435bdc93.js",
+    "runtime-main.js.map": "/learn-react-hooks/static/js/runtime-main.435bdc93.js.map",
+    "static/js/2.246d3040.chunk.js": "/learn-react-hooks/static/js/2.246d3040.chunk.js",
+    "static/js/2.246d3040.chunk.js.map": "/learn-react-hooks/static/js/2.246d3040.chunk.js.map",
+    "index.html": "/learn-react-hooks/index.html",
+    "precache-manifest.4b5a1b7b8f98e1e3c81fa3a05d83858d.js": "/learn-react-hooks/precache-manifest.4b5a1b7b8f98e1e3c81fa3a05d83858d.js",
+    "service-worker.js": "/learn-react-hooks/service-worker.js",
+    "static/js/2.246d3040.chunk.js.LICENSE.txt": "/learn-react-hooks/static/js/2.246d3040.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.435bdc93.js",
+    "static/js/2.246d3040.chunk.js",
+    "static/js/main.d0138ddf.chunk.js"
+  ]
+}
