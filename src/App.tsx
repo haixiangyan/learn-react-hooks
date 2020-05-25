@@ -5,6 +5,7 @@ import LearnUseContext from './LearnUseContext'
 import LearnUseEffect from './LearnUseEffect'
 import LearnUseMemo from './LearnUseMemo'
 import LearnUseRef from './LearnUseRef'
+import LearnUseImperativeHandle from './LearnUseImperativeHandle'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <LearnUseMemo/>
       <hr/>
       <LearnUseRef/>
+      <hr/>
+      <LearnUseImperativeHandle/>
     </div>
   );
 }
