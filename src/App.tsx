@@ -3,6 +3,7 @@ import LearnUseState from './LearnUseState'
 import LearnUseReducer from './LearnUseReducer'
 import LearnUseContext from './LearnUseContext'
 import LearnUseEffect from './LearnUseEffect'
+import LearnUseMemo from './LearnUseMemo'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <LearnUseContext/>
       <hr/>
       <LearnUseEffect/>
+      <hr/>
+      <LearnUseMemo/>
     </div>
   );
 }
