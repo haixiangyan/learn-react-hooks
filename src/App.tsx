@@ -1,6 +1,7 @@
 import React from 'react'
 import LearnUseState from './LearnUseState'
 import LearnUseReducer from './LearnUseReducer'
+import LearnUseContext from './LearnUseContext'
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <LearnUseState/>
       <hr/>
       <LearnUseReducer/>
+      <hr/>
+      <LearnUseContext/>
     </div>
   );
 }
