@@ -4,6 +4,7 @@ import LearnUseReducer from './LearnUseReducer'
 import LearnUseContext from './LearnUseContext'
 import LearnUseEffect from './LearnUseEffect'
 import LearnUseMemo from './LearnUseMemo'
+import LearnUseRef from './LearnUseRef'
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <LearnUseEffect/>
       <hr/>
       <LearnUseMemo/>
+      <hr/>
+      <LearnUseRef/>
     </div>
   );
 }
